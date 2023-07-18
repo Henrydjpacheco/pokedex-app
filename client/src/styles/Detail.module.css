@@ -1,14 +1,27 @@
-.wra{
+.wra{margin-top: 18vh;
 display: flex;
 align-items: center;
 justify-content: center;
 font-family: 'inter', sans-serif bold ;
-margin-top: 3vw;
+margin-top: 18vh;
       
 }
-
-button{
-
+.contLoading{
+    display: flex;
+    
+    background: linear-gradient(137.98deg, #FFFFFF 13.38%, #E9E0FF 29.09%, #CFCCFA 61.72%, #C7E0FF 82.21%);
+    display: flex;
+    justify-content: center;
+   
+    align-items: center;
+    width: 69vw;
+    height: 28vw;
+    border: .6vw solid #a30000; 
+    border-radius: 6vw 6vw 6vw 6vw / 1.5vw 1.5vw 1.5vw 1.5vw; 
+}
+.wrapeting button{
+    display: flex;
+    margin-left: 3vw;
     font-size: 1vw;
     text-align: center ;
     background: #ffde00;
