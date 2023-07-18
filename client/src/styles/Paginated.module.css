@@ -21,7 +21,7 @@ li {
 li:hover{
     background-color:#FF0000;
     color:#ffde00;
-    box-shadow: 0px 0px 30px #00ff;
+   
 }
 .focus{
     transform: scale(1.7);
@@ -29,4 +29,13 @@ li:hover{
     cursor: pointer;
     list-style: none;
     
+}
+button {
+    background-color: #ffde00;
+    color: #00ff;
+    
+    border-radius: .3vh;
+    border: 0.1vw solid #00ff;
+    margin: 0px;
+    font-size:  1.5vw;
 }

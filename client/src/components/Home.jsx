@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 
 import Paginated from "../pages/Paginated.jsx";
 import {
-    getAllPokemon,
-    getTypes,
-    sortByAttack,
-    sortByName,
+  getAllPokemon,
+  getTypes,
+  sortByAttack,
+  sortByName,
 } from "../redux/actions";
 import style from "../styles/Home.module.css";
 import Card from "./Card";
@@ -105,7 +105,7 @@ const Home = () => {
           <Loading />
         ) : (
           <div className={style.cards}>
-            {" "}
+            
             {currentPokemon?.map((poke) => (
               <Link to={"/home/" + poke.id} key={poke.id} id={poke.id}>
                 <Card

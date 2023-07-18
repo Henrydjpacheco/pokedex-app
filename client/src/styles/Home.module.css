@@ -42,8 +42,8 @@
 header{
     display: flex;
     align-items: center;
-    height: 9vw;
-    margin-top: 3vw ;
+    height: 18vh;
+   margin-top: 1vh;
 
 }
 header .order{
@@ -91,8 +91,8 @@ h1{
         background: linear-gradient(137.98deg, #FFFFFF 13.38%, #E9E0FF 29.09%, #CFCCFA 61.72%, #C7E0FF 82.21%);
         display: flex;
         justify-content: center;
+        margin-top: 3vw;
         align-items: center;
-        margin-top: 3.3vw;
         width: 69vw;
         height: 28vw;
         border: .6vw solid #a30000; 
@@ -103,8 +103,7 @@ h1{
         background: linear-gradient(137.98deg, #FFFFFF 13.38%, #E9E0FF 29.09%, #CFCCFA 61.72%, #C7E0FF 82.21%);
         display: grid;
         grid-template-columns: 16.6666666667% 16.6666666667% 16.6666666667% 16.6666666667% 16.6666666667% 16.6666666667% ;
-        
-        margin-top: 3.3vw;
+      
         width: 69vw;
         height: 28vw;
         border: .6vw solid #a30000; 
