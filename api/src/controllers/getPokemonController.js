@@ -15,8 +15,8 @@ const getPokeData = async url => {
         weight: data.weight,
         types: data.types.map(type => type.type.name)
     }
-    return pokemon
-}
+    return pokemon;
+};
 
 
 const listApiPokemon = async () => {
@@ -64,7 +64,7 @@ let listDbPokemon = async () => {
 const listPokemon = async () => {
     const apiPokemon = await listApiPokemon();
     const dbPokemon = await listDbPokemon();
-    const allPokemon =  apiPokemon.concat(dbPokemon);
+    const allPokemon =  [...apiPokemon, ...dbPokemon];
     return allPokemon;
 }
 module.exports = {listPokemon};
